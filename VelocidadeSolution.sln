@@ -19,7 +19,7 @@ namespace AreaPerimetro
             Console.WriteLine("Programa onde se calcula a área e o perímetro");
             Console.Write("Digite o Lado maior em centimetros: ");
             lma = float.Parse(Console.ReadLine());
-            Console.Write("Digite o Lado menor em centimetors: ");
+            Console.Write("Digite o Lado menor em centimetros: ");
             lme = float.Parse(Console.ReadLine());
             a = lma * lme;
             p = lma + lma + lme + lme;
